@@ -106,7 +106,7 @@ featureFlags:
       name: PL_ALLOW_DIFFERENT_SERVICE_PRINCIPAL_IN_AUTH_TOKEN_AND_BODY
       identifier: PL_ALLOW_DIFFERENT_SERVICE_PRINCIPAL_IN_AUTH_TOKEN_AND_BODY
       description: "description of \nPL_ALLOW_DIFFERENT_ SERVICE_PRINCIPAL_IN_AUTH
-        _TOKEN_AND_BODY"
+        _TOKEN_AND_BODY additional text makes for a long description"
       permanent: false
       spec:
         type: boolean
