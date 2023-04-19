@@ -1,0 +1,210 @@
+featureFlags:
+  flags:
+  - flag:
+      name: Dark Mode
+      identifier: Dark_Mode
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: Environment_With_A_Long_Name
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: Env_Prod1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "on"
+      - identifier: Env_Prod3
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "on"
+      - identifier: PreQA
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: QA1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "on"
+      - identifier: QA2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "on"
+      - identifier: UAT
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: Great New Feature
+      identifier: Great_New_Feature
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: Environment_With_A_Long_Name
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "on"
+      - identifier: Env_Prod1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: Env_Prod3
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: PreQA
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: QA1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "on"
+      - identifier: QA2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "on"
+      - identifier: UAT
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "on"
+  - flag:
+      name: PL_ALLOW_DIFFERENT_SERVICE_PRINCIPAL_IN_AUTH_TOKEN_AND_BODY
+      identifier: PL_ALLOW_DIFFERENT_SERVICE_PRINCIPAL_IN_AUTH_TOKEN_AND_BODY
+      description: "description of \nPL_ALLOW_DIFFERENT_ SERVICE_PRINCIPAL_IN_AUTH
+        _TOKEN_AND_BODY"
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: Environment_With_A_Long_Name
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: Env_Prod1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: Env_Prod3
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: PreQA
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: QA1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: QA2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: UAT
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: Trial Mode X
+      identifier: Trial_Mode
+      description: Lorem ipsum is placeholder text commonly used in the graphic, print,
+        and publishing industries for previewing layouts and visual mockups
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: Environment_With_A_Long_Name
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "on"
+      - identifier: Env_Prod1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: Env_Prod3
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "on"
+      - identifier: PreQA
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: QA1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: QA2
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+      - identifier: UAT
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "on"
+  projectIdentifier: KJ_DEV
+  orgIdentifier: default
