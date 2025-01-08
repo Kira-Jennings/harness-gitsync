@@ -1,14 +1,14 @@
 featureFlags:
   flags:
   - flag:
-      name: Bool1
-      identifier: Bool1
+      name: Jan Flag
+      identifier: Jan_Flag
       description: ""
       permanent: false
       spec:
         type: boolean
         default:
-          onVariation: "true"
+          onVariation: "false"
           offVariation: "false"
         variations:
         - identifier: "true"
@@ -18,7 +18,32 @@ featureFlags:
       environments:
       - identifier: E1
         default:
-          onVariation: "true"
+          onVariation: "false"
+          offVariation: "false"
+        state: "on"
+  - flag:
+      name: XYZ Flag
+      identifier: XYZ_Flag
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      tags:
+      - tag:
+          name: tag1
+          identifier: tag1
+      environments:
+      - identifier: E1
+        default:
+          onVariation: "false"
           offVariation: "false"
         state: "off"
   projectIdentifier: Kira_Test
