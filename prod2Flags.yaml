@@ -22,6 +22,34 @@ featureFlags:
           offVariation: "false"
         state: "on"
   - flag:
+      name: Milo Flag
+      identifier: Milo_Flag
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      tags:
+      - tag:
+          name: Milo 1
+          identifier: Milo_1
+      - tag:
+          name: Milo2
+          identifier: Milo2
+      environments:
+      - identifier: E1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
       name: XYZ Flag
       identifier: XYZ_Flag
       description: ""
